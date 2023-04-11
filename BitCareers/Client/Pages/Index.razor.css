@@ -1,0 +1,576 @@
+﻿/*--- start general classes ---*/
+section {
+    margin-bottom: 88px;
+    user-select: none;
+}
+
+    section:nth-child(odd) {
+        background-color: #F5F9FF;
+    }
+
+    section:nth-child(even) {
+        background-color: white;
+    }
+
+.section-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #141414;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #FFDA2F;
+    margin: 0 auto;
+    direction: rtl;
+    text-align: center;
+}
+
+.btn-pad {
+    padding: 8px 32px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.arrow-icon-btn {
+    color: #0054C6;
+    font-weight: 600;
+    background: url(/images/left-arrow-blue.svg) no-repeat 0px;
+    text-align: right;
+}
+/*--- end general classes ---*/
+
+.hero-section-container {
+    display: flex;
+    padding: 56px 140px 0 100px;
+    background-color: #DFECFF !important;
+    align-items: flex-end;
+}
+
+.person-pic {
+    background: url(/images/person-pic.svg) no-repeat bottom;
+    background-size: contain;
+    margin-right: 30px;
+    width: 100%;
+    height: 456px;
+    flex: 3;
+}
+
+.hero-section-content {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 78px 0;
+}
+
+.hero-section-title {
+    color: #141414;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 56px;
+    direction: rtl;
+}
+
+.hero-section-description {
+    margin-bottom: 40px;
+    color: #555555;
+    font-size: 24px;
+    line-height: 48px;
+    direction: rtl;
+}
+
+.hero-section-bit-icon {
+    height: 24px;
+    padding: 0 2px;
+}
+
+.careers-button {
+    background-color: #0065EF;
+    color: white;
+    height: 48px;
+}
+
+    .careers-button:hover {
+        background-color: #0554bf;
+    }
+
+
+.about-us-section-container {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 40px 140px 80px 140px;
+}
+
+.about-us-section-content {
+    margin-top: 73px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.about-us-section-img-container {
+    margin-right: 50px;
+    position: relative;
+    height: fit-content;
+    flex: 1;
+}
+
+.about-us-section-img {
+    background: url(/images/team-work-pic.svg) no-repeat center;
+    background-size: contain;
+    height: 248px;
+}
+
+.about-us-section-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex: 3;
+}
+
+.about-us-section-description {
+    font-size: 20px;
+    direction: rtl;
+    color: #141414;
+    margin-bottom: 32px;
+    margin-top: 24px;
+}
+
+.about-us-section-btn {
+    color: #0065EF;
+    border: 1px solid #0065EF;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+    .about-us-section-btn:hover {
+        color: white;
+        background-color: #0065EF;
+    }
+
+.ui-effect-1 {
+    top: -33px;
+    left: -28px;
+}
+
+.ui-effect-2 {
+    bottom: -28px;
+    right: -28px;
+}
+
+.ui-effect-3 {
+    left: 72px;
+    top: -53px;
+}
+
+.ui-effect-4 {
+    right: -63px;
+    top: -80px;
+}
+
+
+.careers-section-container {
+    padding: 40px 20px 90px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.careers-section-content {
+    max-width: 970px;
+    position: relative;
+    margin-top: 64px;
+}
+
+.careers-box {
+    width: 100%;
+    min-height: 160px;
+    background: white;
+    border: 1px solid #D7D7D7;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 56px;
+}
+
+    .careers-box:last-child {
+        margin-bottom: 32px !important;
+    }
+
+.careers-box-content {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.careers-box-title {
+    margin-right: 48px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #515151;
+}
+
+.careers-box-img {
+    width: 148px;
+}
+
+.more-careers {
+    width: 100%;
+    border: 2px solid #DFECFF;
+    min-height: 186px;
+    border-radius: 12px;
+    padding: 48px 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-careers-title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.send-resume-btn {
+    background-size: 28px;
+    width: 121px;
+}
+
+.ui-effect-rocket {
+    bottom: -90px;
+    left: 68px;
+}
+
+.ui-effect-bell {
+    top: 34px;
+    right: 73px;
+}
+
+
+.feedback-section {
+    padding-bottom: 40px;
+}
+
+::deep .bit-carousel {
+    height: 720px;
+}
+
+.second-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: antiquewhite;
+}
+
+.feedback-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.product-designer-info-container {
+    flex: 1;
+    max-width: 373px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 80px;
+}
+
+.product-designer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.designer-avatar {
+    background: url(/images/zahra-ebrahimi-avatar.svg) no-repeat center;
+    background-size: contain;
+    height: 260px;
+    width: 100%;
+}
+
+.designer-name {
+    color: #515151;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 13px;
+    line-height: 48px;
+    direction: rtl;
+}
+
+.designer-post-text {
+    color: #8A8886;
+    font-size: 20px;
+    margin-top: 6px;
+    line-height: 40px;
+}
+
+.feedback-content {
+    flex: 3;
+    padding: 40px 86px 0 56px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.feedback-description {
+    margin-top: 189px;
+    font-size: 20px;
+    color: #515151;
+    line-height: 40px;
+    text-align: center;
+    direction: rtl;
+    position: relative;
+}
+
+    .feedback-description .quote-down {
+        top: -54px;
+        right: 0;
+    }
+
+    .feedback-description .quote-up {
+        bottom: -54px;
+        left: 0;
+    }
+
+    .feedback-description .ui-effect-5 {
+        top: -70px;
+        left: -50px;
+    }
+
+.slide-btns {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.slides-left-arrow {
+    background: url(/images/slides-left-arrow-empty.svg) no-repeat center;
+    width: 40px;
+    height: 40px;
+}
+
+.slides-right-arrow {
+    background: url(/images/slides-right-arrow-filled.svg) no-repeat center;
+    width: 40px;
+    height: 40px;
+}
+
+.team-members-img {
+    flex: 1;
+    background: url(/images/team-members-avatars.svg) no-repeat right;
+    background-size: contain;
+    height: 680px;
+}
+
+
+
+.flow-section-container {
+    padding: 40px 50px 127px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flow-section-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.flow-step {
+    max-width: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-name {
+    font-weight: 500;
+    color: #141414;
+    margin-top: 8px;
+}
+
+.connection-line {
+    margin-top: 38px;
+    max-width: 130px;
+    width: 100%;
+    border-bottom: 2px dashed #5CA1FF;
+}
+
+
+.why-bit-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 50px 80px;
+}
+
+.why-bit-section-content {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 21px 9vw;
+}
+
+.why-bit-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+    .why-bit-item span {
+        font-size: 20px;
+        color: #141414;
+        font-weight: 500;
+        direction: rtl;
+    }
+
+    .why-bit-item img {
+        margin-left: 16px;
+    }
+
+
+.suggestions-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 48px 88px;
+    margin-bottom: 0;
+}
+
+.suggestions-section-content {
+    width: 100%;
+    max-width: 1158px;
+    margin-top: 44px;
+}
+
+.suggestion-items-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.videos-section {
+    margin-top: 40px;
+}
+
+.suggestion-items-container-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.see-all-btn {
+    background-size: 24px;
+    width: 124px;
+}
+
+.suggestion-items-container-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #515151;
+    line-height: 42px;
+}
+
+.suggestion-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.intro-box {
+    width: 370px;
+    min-height: 370px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.intro-box-space {
+    margin: 0 24px;
+}
+
+.intro-box-img {
+    height: 178px
+}
+
+.intro-box-content {
+    padding: 20px 24px 24px;
+}
+
+.intro-box-subject {
+    direction: rtl;
+    color: #141414;
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
+.intro-box-content .author-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.author-info .author-avatar {
+    height: 32px;
+    margin-left: 6px;
+}
+
+.author-info .author-name {
+    font-size: 12px;
+    color: #0054C6;
+    font-weight: 500;
+}
+
+.intro-box-times {
+    border-top: 1px solid #D7D7D7;
+    padding-top: 13px;
+    color: #515151;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+}
+
+.intro-box-times-item {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+    .intro-box-times-item img {
+        margin-left: 13px;
+    }
+
+    .intro-box-times-item .time-text {
+        direction: rtl;
+    }

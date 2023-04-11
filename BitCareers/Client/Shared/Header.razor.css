@@ -1,0 +1,37 @@
+﻿.header-container {
+    min-height: 72px;
+    background-color: #DFECFF;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 140px;
+    font-weight: 500;
+    user-select: none;
+}
+.header-bit-icon {
+    width: 42px;
+}
+
+.header-items-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.blue-font-color {
+    color: #0065EF !important;
+}
+
+.header-item {
+    margin: auto;
+    cursor: pointer;
+    color: #515151;
+}
+
+    .header-item:hover {
+        color: #0065EF;
+    }
+
+    .header-item.margin-around {
+        margin: auto 56px !important;
+    }
